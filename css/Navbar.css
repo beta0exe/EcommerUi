@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #8CB7F9 solid 1px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.navbar-brand-logo{
+    margin-left: 5rem;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8rem;
+    margin-right: 8rem;
+    list-style: none;
+}
+.nav-li{
+    font-size: 1.2rem;
+    color: #0C0C0C;
+}
+.navbar-icons{
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+    gap: 2rem
+}
+

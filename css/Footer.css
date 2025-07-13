@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #021736;
+}
+
+.footer-top-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+}
+.footer-first-row-t{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-first-row-item {
+    list-style: none;
+}
+.footer-row-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-first-row-gap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.1rem;
+    width: 100%;
+}
+.footer-row-item{
+    margin-bottom: 0.7rem;
+}
+.footer-row-item a ,.footer-row-item p{
+    text-decoration: none;
+    color: #CBCBCB ;
+    font-weight: 300;
+
+
+}
+.footer-title {
+    color: #ede9e9;
+    margin-bottom: 0.7rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.footer-fourth-row-title {
+    margin-bottom: 1.3rem;
+    font-weight: 500;
+}
+.footer-fourth-row-input{
+    margin-bottom: 0.7rem;
+}
+.footer-fourth-row-social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.footer-fourth-row-input {
+    width: 110%;
+    margin-bottom: 1rem;
+}
+.footer-email-input{
+    width: 110%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #021736;
+    border: 2px solid #ece9e9;
+}
+.footer-email-input::placeholder{
+    color: #d6cfcf;
+}
+.footer-Sixth-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+}
+.footer-Sixth-row-btn {
+    border-radius: 50%;
+    background-color: #AECDFB;
+    border: none;
+}
+.footer-Sixth-row img{
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem;
+}
+.footer-first-row-item{
+    display: flex;
+    gap: 0.5rem;
+}
+.footer-first-row {
+ width: 10rem;
+}
+.movetoleft1 {
+    margin-left: 2rem;
+}
+
+.footer-bot {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    border-top: 1px solid #ece9e9;
+}
+.footer-bot-right-ui {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+}
+.footer-bot-left {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 8rem;
+}
+.footer-bot-left a {
+    color: #CBCBCB;
+    text-decoration: none;
+}
+.footer-bot-left {
+    color: #CBCBCB;
+}
+.footer-top-container {
+    margin-bottom: 0.7rem;
+}
