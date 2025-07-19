@@ -1,6 +1,6 @@
-# React + Vite
+I have done Ui with react (this is only Ui I haven't done the backend yet) 
+There is multiple page In the code i only put the home page as a intero
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
