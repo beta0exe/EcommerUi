@@ -57,3 +57,15 @@
     text-decoration: line-through;
     color: gray;
 }
+@media only screen and (max-width: 600px) {
+    .product-card {
+        width: 100%;
+        height: 100%;
+    }
+    .product-card-bot-price {
+        margin: 0;
+    }
+    .product-card-bot-card-bot-title {
+        margin-bottom: 0.5rem;
+    }
+}

@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "hamburger-react": "^2.5.2",
     "lucide-react": "^0.525.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router": "^7.6.3",
+    "react-router-dom": "^7.6.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

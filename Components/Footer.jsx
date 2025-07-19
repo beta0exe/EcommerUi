@@ -1,4 +1,6 @@
 import "../css/Footer.css"
+import {User} from "lucide-react"
+import { ChevronDown } from 'lucide-react';
 
 function Footer() {
     return (
@@ -75,6 +77,44 @@ function Footer() {
                         <li className="footer-bot-left"><a href="#">Terms and Conditions </a></li>
                         <li className="footer-bot-left"><a href="#">Imprint</a></li>
                     </ul>
+                </div>
+            </div>
+            <div className="footer-phone">
+                <div className="footer-btn">
+                    <button className="footer-phone-button"><img src="../public/message-question.png" alt="message-question" /></button>
+                    <button className="footer-phone-button"><img src="../public/arrow-circle-up.png" alt="arrow-circle-down"  /></button>
+                </div>
+                <div className="footer-line-2">
+                    <h3 className="footer-line-2-title">Sign up for News and updates</h3>
+                    <input type="text" className="footer-phone-input" placeholder="E-mail Address"/>
+                </div>
+                <div className="footer-line-3">
+                   <div className="footer-line-3-first-row">
+                       <p className="footer-line-3-first-row">Company</p>
+
+
+                       <p className="footer-line-3-sec-row">Info</p>
+                       <p className="footer-line-3-third-row">Contact us</p>
+                   </div>
+                    <div className="footer-line-3-sec-row">
+                        <p className="footer-line-3-first-row"><ChevronDown color="white" size={24} /></p>
+                        <p className="footer-line-3-sec-row"><ChevronDown color="white" size={24} /></p>
+                        <p className="footer-line-3-third-row"><ChevronDown color="white" size={24} /></p>
+                    </div>
+                </div>
+                <div className="footer-sec-section">
+                    <div className="footer-sec-section-left">
+                        <img src="../public/paypal.png" alt="sec-section" />
+                        <img src="../public/american%20express.png" alt="sec-section" />
+                        <img src="../public/visa.png" alt="sec-section" />
+                        <img src="../public/master%20card.png" alt="sec-section" />
+                    </div>
+                    <div className="footer-sec-section-right">
+                        <img src="../public/icon(1).png" alt="sec-section" />
+                        <img src="../public/Icon.png" alt="sec-section" />
+                        <img src="../public/Icon(2).png" alt="sec-section" />
+                        <img src="../public/Icon(3).png" alt="sec-section" />
+                    </div>
                 </div>
             </div>
         </div>

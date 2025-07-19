@@ -224,6 +224,15 @@
     color: #274B6B;
     font-size: 2rem;
 }
+.Home_fourth-part-third-section-box-right{
+    position: relative;
+}
+.ps4-image {
+    position: absolute;
+    right: 3.4rem;
+    width: 19rem;
+
+}
 .Home_fourth-part-third-section-right-bot1 {
     display: flex;
     gap: 1rem;
@@ -246,7 +255,7 @@
     border-radius: 0.5rem ;
     background: #0C68F4;
     color: white;
-
+    border: none;
 }
 
 /* fifth part */
@@ -373,3 +382,220 @@
     margin-right: 1.5rem;
     margin-bottom: 2rem;
 }
+.Home_first-part-button:hover {
+    background-color: #ff2c06;
+    transition: 0.4s;
+}
+.Home_second-part div:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.Home_third-part-button:hover {
+    color: #1c97df;
+}
+.Home_third-part-right div:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.Home_fourth-part-second-section div:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.Home_fourth-third-section-right-bot-button:hover {
+    background-color: #09314c;
+    transition: 0.3s;
+}
+.Home_fourth-third-section-right-top3:hover {
+    background-color: #09314c;
+    transition: 0.3s;
+}
+.Home_fifth-part-banner-left-button:hover {
+    background-color: #ff2c06;
+    transition: 0.4s
+}
+
+.welldone-massage {
+    width: 35rem;
+    height: 25rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 38%;
+    top: 25%;
+    border-radius: 0.5rem ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 100%;
+    z-index: 5;
+}
+.welldone-massage-img {
+    width: 30%;
+}
+.welldone-massage-title {
+    margin-top: 1rem;
+    font-size: 3.5rem;
+    color: #146C43;
+}
+.welldone-massage-description {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    width: 60%;
+    text-align: center;
+}
+.container-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #0C68F4;
+    background-color: rgba(0, 0, 0, 0.73);
+    display: none;
+
+}
+.singup-toggler {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    width: 5rem;
+    height: 4rem;
+    z-index: 10;
+    opacity: 0;
+}
+.singup-toggler:checked + .container-overlay{
+    display: block;
+}
+.singup-toggler:checked {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .Home {
+        width: 100vw ;
+        overflow: hidden;
+    }
+    .Home_first-part {
+        max-width: 600px;
+    }
+    .Home_first-part-title {
+        font-size: 2rem;
+        margin-top: 1rem;
+
+    }
+    .Home_first-part-description {
+        font-size: 1.2rem;
+        margin: 1rem 0 1rem 0;
+    }
+    .Home_first-part-button {
+        width: 10rem;
+        height: 3rem;
+    }
+    .Home_second-part{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+    .Home_third-part {
+        display: flex;
+        max-width: 700px;
+        max-height: 300px;
+        padding: 2rem;
+        gap: 3rem;
+    }
+    .Home_third-part-right {
+        width: 100%;
+        overflow: hidden;
+    }
+    .Home_fourth-part {
+        max-width: 100vw;
+
+    }
+    .Home_fourth-part-title {
+       width: 550px;
+
+    }
+    .Home_fourth-part-second-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+    /*change it later*/
+    .Home_fourth-part-second-section div:hover {
+        transform: none;
+    }
+    .Home_fourth-part-third-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .Home_fourth-part-third-section-box-left {
+        width: 100%;
+        height: 100%;
+    }
+    .Home_fourth-part-third-section-left {
+        width: 45%;
+        padding: 2rem;
+    }
+    .Home_fourth-part-third-section-left-bot {
+        width: 1rem;
+    }
+    .Home_fourth-part-third-section-right {
+        width: 50%;
+        margin-left: 1rem;
+    }
+    .iphone-image {
+        width: 250px;
+        height: 250px;
+    }
+    .Home_fourth-part-third-section-right-top {
+        gap: 0.5rem;
+    }
+    .Home_fourth-part-third-section-box-right {
+        width: 100%;
+    }
+    .Home_fifth-part {
+        max-width: 100%;
+    }
+    .Home_fifth-part-top {
+        max-width: 550px;
+        border: none;
+    }
+    .Home_fifth-part-brand-logos {
+        width: 100%;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        grid-gap: 1rem;
+    }
+
+    .Home_fifth-part-brand-huawei {
+        display: none;
+    }
+    .Home_fifth-part-brand-lenovo {
+        display: none;
+    }
+    .Home_fifth-part-banner {
+        display: none;
+    }
+    .Home_fifth-part-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .Home_fifth-part-bottom-feature-text2::before {
+        margin-left: 0;
+    }
+    .Home_fifth-part-bottom-feature-text3{
+        margin-top: 0.8rem;
+    }
+    .ps4-image {
+        position: absolute;
+        right: 3.4rem;
+        width: auto;
+    }
+    }

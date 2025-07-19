@@ -5,6 +5,14 @@ import "../css/Home.css"
 function Home() {
     return (
         <div className="Home">
+            <input type="checkbox" className="singup-toggler"/>
+            <div className="container-overlay"><div className="welldone-massage">
+                <img src="../public/Frame%2026086749.png" className="welldone-massage-img" />
+                <h1 className="welldone-massage-title">Well done</h1>
+                <p className="welldone-massage-description">
+                    Congratulation your account has been successfully created.
+                </p>
+            </div></div>
             <div className="Home-container">
                 {/*//first part here-part*/}
                 <div className="Home_first-part">
@@ -52,7 +60,7 @@ function Home() {
                 <div className="Home_fourth-part">
                     <div className="Home_fourth-part-title">
                         <h3 className="Home_fourth-part-title1">New Products</h3>
-                        <a className="Home_fourth-part-button">View all &gt;</a>
+                            <a className="Home_fourth-part-button">View all &gt;</a>
                     </div>
                     <div className="Home_fourth-part-second-section">
                         <NewProductsCard NewProduct={{image:"../public/2 (1).png",title:"Iphone 14 promax 256 gig",price:"930.90",score:"4.5"}} />
@@ -68,7 +76,7 @@ function Home() {
                                     <h3 className="Home_fourth-part-title-one">Iphone <span className="highlighttowhite">15 Series</span></h3>
                                 </div>
                                 <div className="Home_fourth-part-third-section-left-bot">
-                                    <img src="../public/image%20187.png" alt="iphone-image"/>
+                                    <img src="../public/image%20187.png" alt="iphone-image" className="iphone-image" />
                                 </div>
                             </div>
                             {/*fix here */}
@@ -98,7 +106,7 @@ function Home() {
                             </div>
                             <div className="Home_fourth-part-third-section-right-bot1">
                                 <p className="Home_fourth-third-section-right-top2">Digital Edition + 2TB</p>
-                                <img src="../public/ps53.png" alt="ps4-image"/>
+                                <img src="../public/ps53.png" alt="ps4-image" className="ps4-image"/>
                             </div>
                             <div className="Home_fourth-part-third-section-right-middle">
                                 <button className="Home_fourth-third-section-right-top3">Buy Now</button>

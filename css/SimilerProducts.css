@@ -1,0 +1,42 @@
+.productDetails-third-part-cards-similer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.productDetails-third-part-cards-similer-info {
+    border-top: 1px solid silver;
+}
+.productDetails-third-part-cards-similer-info-title-1 {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.productDetails-third-part-cards-similer-info-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productDetails-third-part-cards-similer-btn {
+    width: 60%;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #0C68F4;
+    color: #0C68F4;
+}
+.productDetails-third-part-cards-similer-btn-1 {
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 3rem;
+    color: #0C68F4;
+    border-radius: 50%;
+}
+.productDetails-third-part-cards-similer-btn:hover {
+    background-color: #164697;
+}

@@ -1,0 +1,72 @@
+.navbar-hambergur-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(200, 190, 190, 0.16);
+    backdrop-filter: blur(30px);
+}
+.navbar-hambergur-bar-logo {
+    position: fixed;
+    top: 40px;
+    left: 80px;
+}
+.navbar-hambergur-bar-toggle {
+    position: fixed;
+    top: 40px;
+    right: 80px;
+    opacity: 100%;
+    filter: none;
+}
+.navbar-hambergur-bar-second-row {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    justify-content: center;
+    margin-top: 12rem;
+    font-size: 1.3rem;
+}
+.navbar-hambergur-bar-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    font-weight: bold;
+}
+.product-subclass {
+    margin-left: 2rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    list-style: none;
+    display: none;
+}
+.product-span:hover {
+    color: #0C68F4;
+}
+.toggle-subs:checked ~ .product-subclass {
+    display: flex;
+}
+.hambergur-product-item:hover {
+    color: #0C68F4;
+}
+.navbar-hambergur-item:hover{
+    color: #0C68F4;
+
+}
+.product-span2 {
+    position: absolute;
+    top: 12rem;
+    right: 6rem;
+}
+.product-span2:hover {
+    color: #0C68F4;
+}
+.toggle-subs {
+    position: absolute;
+    width: 5rem;
+    height: 2.5rem;
+    opacity: 0;
+}

@@ -1,0 +1,53 @@
+.commentBox {
+    padding: 1rem;
+    border: 1px solid #EDEDED;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: #F9F9F9;
+}
+.commentBox-first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.commentBox-first-row-imagebox {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.commentBox-first-row-info-name {
+    font-size: 1.4rem;
+}
+.commentBox-first-row-info-joined {
+    font-size: 0.9rem;
+    color: #6e6e6e;
+}
+.commentBox-comment {
+    font-size: 1.2rem;
+    color: #3c3c3c;
+    margin-bottom: 2rem;
+}
+.commentBox-third-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.commentBox-comment-link-boxes {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+.commentBox-comment-third-row-dislikes {
+    margin-top: 0.15rem;
+    color: #1a59c1;
+}
+.commentBox-comment-third-row-link {
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #1a59c1;
+}
+.commentBox-comment-third-row-likes {
+    color: #1a59c1;
+}
